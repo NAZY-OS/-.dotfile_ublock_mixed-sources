@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Create a text file with the desired filename
-output_file="raw_url-list.lst"
+output_file="FILTERLIST-IMPORT.MD"
 base_url="https://raw.githubusercontent.com/NAZY-OS/.dotfile_ublock_mixed-sources/refs/heads/main/"
 
 # Find all .txt files and prepend the base URL, saving them to the text file

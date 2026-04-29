@@ -65,9 +65,9 @@ groupeapocom.com###website_cookies_bar
 ! https://old.reddit.com/r/uBlockOrigin/comments/1l8i7qu/unusual_traffic_warning_from_google_search_in/
 www.google.*##+js(trusted-click-element, button#W0wltc, , 500)
 ! When moving from Google search to other Google services or opening them directly. E.G. https://translate.google.com/ 
-#consent.google.*##+js(trusted-click-element, form[action] button[jsname="tWT92d"])
+consent.google.*##+js(trusted-click-element, form[action] button[jsname="tWT92d"])
 ! https://github.com/DandelionSprout/adfilt/discussions/932#discussioncomment-8260397
-#consent.google.*##[data-p*="/consent.google."]:has(button[jsname="tWT92d"])
+consent.google.*##[data-p*="/consent.google."]:has(button[jsname="tWT92d"])
 ! https://github.com/uBlockOrigin/uAssets/discussions/18598#discussioncomment-8651332
 consent.youtube.com##+js(trusted-click-element, [action="https://consent.youtube.com/save"][style="display:inline;"] [name="set_eom"][value="true"] ~ .basebuttonUIModernization[value][aria-label])
 consent.youtube.com##body.bodyUIModernization:has([action="https://consent.youtube.com/save"] .saveButtonUIModernization[value][aria-label])
